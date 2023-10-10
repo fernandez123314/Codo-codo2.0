@@ -1,8 +1,4 @@
-
-* {
-	padding: 3px;
-	margin: 5px;
-}
+/*HOJA DE ESTILOS PARA PRODUCTOS BLACK MIRROR*/
 
 body {
 	background-color: rgb(34, 50, 2);
@@ -10,81 +6,51 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-.grilla{
-	background-color: darkslategrey;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-}
-
-.card {
-	height: 500px;
+main, section {
+    background-color: rgb(47, 79, 79);
+    height: 100%; 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: space-between;
 	padding: 20px;
-	background-size: cover;
+}
+
+section {
+    background-size: cover;
 	background-position: center center;
-}
-
-.card .textos {
-	height: 100%;
-	display: grid;
-	grid-template-rows: 1fr auto;
-	font-weight: bold;
 } 
-
-.boton{
-	display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 a {
 	text-decoration: none;
-    background-color: #4CAF50;
+    background-color: #FFD333;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
 }
 
-@media screen and (max-width: 800px) { 
-	.grilla{
-		display: grid;
-		grid-template-columns: 1fr 2fr;
-		gap: 5px;
-	}
-	.card{
-		max-height: 300px;
-	}
-	.card .textos{
-		font-weight: normal;	
+@media screen and (min-width: 650px) {
+	#texto, #boton {
+		display: flex;
+		justify-content: space-between;
 	}
 }
-
-@media screen and (max-width: 600px) { 
-	.grilla{
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: 5px;
-		font-weight: .8rem;
-	}
-	.card{
-		max-height: 150px;
-	}
+@media screen and (min-width: 650px) {
+    #grilla {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-@media screen and (max-width: 412px) { 
-	.grilla{
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: 5px;
-	}
-	.card{
-		max-height: 80px;
-	}
-	.card .textos {
-		font-weight: .6rem;		
-	}
+@media screen and (min-width: 900px) {
+    #grilla {
+        grid-template-columns: 1fr;
+    }
+    aside {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 }

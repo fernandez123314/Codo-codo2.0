@@ -9710,3 +9710,8 @@ a.text-dark:hover, a.text-dark:focus {
     transform: translateY(-15px);
   }
 }
+
+.mirror {
+  display: flex;
+  padding-left: 10px;
+}
