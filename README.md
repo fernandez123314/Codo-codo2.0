@@ -1,9 +1,9 @@
 
-            https://tourmaline-seahorse-e8224f.netlify.app
+ https://tourmaline-seahorse-e8224f.netlify.app
 
- El sitio web tiene un diseño moderno y se enfoca en promover servicios relacionados con la inteligencia artificial y la realidad virtual.
+El sitio web tiene un diseño moderno y se enfoca en promover servicios relacionados con la inteligencia artificial y la realidad virtual.
 
-Estructura de Carpetas y Archivos
+            Estructura de Carpetas y Archivos
 index.html: El archivo principal del sitio web que contiene la estructura HTML de la página.
 
 assets/: Carpeta que contiene los activos del sitio web, como imágenes, estilos CSS.
@@ -15,7 +15,7 @@ assets/css/: Carpeta que contiene los archivos de estilos CSS utilizados para da
 
 js/: Carpeta que contiene los scripts JavaScript utilizados para funcionalidades del sitio web.
 
-Estructura del Sitio Web
+            Estructura del Sitio Web
 El sitio web está estructurado en varias secciones:
 
 Header: La sección de encabezado incluye el logotipo, la barra de navegación y un botón de menú para dispositivos móviles.
@@ -28,13 +28,13 @@ Acerca de Nosotros: Una sección que describe la misión de la empresa y su comp
 
 Características: Aquí se destacan las características de la inteligencia artificial, como el procesamiento de datos avanzado, aplicaciones de realidad virtual y aumentada, chatbots de atención al cliente, personalización de productos en eCommerce y optimización web por búsquedas por voz.
 
-Nuestro Equipo: Esta sección presenta al equipo de la empresa, incluyendo nombres, roles y enlaces a perfiles de redes sociales.
+            Nuestro Equipo: Esta sección presenta al equipo de la empresa, incluyendo nombres, roles y enlaces a perfiles de redes sociales.
 
-Suscríbete: Una sección que invita a los visitantes a suscribirse para recibir noticias y actualizaciones.
+            Suscríbete: Una sección que invita a los visitantes a suscribirse para recibir noticias y actualizaciones.
 
-Footer: El pie de página incluye enlaces de servicio, información de la compañía y enlaces de soporte.
+            Footer: El pie de página incluye enlaces de servicio, información de la compañía y enlaces de soporte.
 
-Recursos Adicionales
+            Recursos Adicionales
 Iconos Ionicons: Se utiliza la biblioteca de iconos Ionicons para agregar iconos a la página. Los enlaces a los archivos de Ionicons se proporcionan en el código HTML.
 
 
