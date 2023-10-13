@@ -532,9 +532,9 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
   gap: 40px;
   text-align: center;
   background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
-box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
-border-radius: 34px;
-padding: 35px 30px;
+  box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+  border-radius: 34px;
+  padding: 35px 30px;
 }
 
 .newsletter-form {
@@ -550,6 +550,11 @@ padding: 35px 30px;
   /* margin-block-end: 30px; */
 }
 
+#validar {
+  color: rgb(61, 61, 49);
+  text-align: left;
+}
+
 .newsletter-form .btn {
   display: flex;
   align-items: center;
@@ -557,7 +562,7 @@ padding: 35px 30px;
   gap: 10px;
   border-radius: var(--radius-pill);
   position: absolute;
-  top: 5px;
+  top: 190px;
   right: 5px;
   transition: var(--transition-2);
 }
