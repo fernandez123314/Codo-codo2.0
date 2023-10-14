@@ -753,12 +753,12 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
 
 /* team */
 .team .grid-list{
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns: repeat(5, 1fr);
 }
 
 /* footer */
 .footer .grid-list{
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns: repeat(5, 1fr);
 }
 
 
