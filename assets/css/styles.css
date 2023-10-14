@@ -550,9 +550,13 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
   /* margin-block-end: 30px; */
 }
 
-#validar {
+#validado {
   color: rgb(61, 61, 49);
   text-align: left;
+}
+
+.error {
+  color: red;
 }
 
 .newsletter-form .btn {
