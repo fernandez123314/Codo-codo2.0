@@ -37,22 +37,6 @@ window.addEventListener("scroll", function () {
 
 //validar Formulario
 
-//function validateForm() {
-//  const emailInput = document.getElementById("email");
-//  const email = emailInput.value;
-//  const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-
-//  if (email === "") {
-//    alert("Por favor, ingrese su dirección de correo electrónico.");
-//    return false;
-//  } else if (!emailPattern.test(email)) {
-//    alert("Por favor, ingrese una dirección de correo electrónico válida.");
-//    return false;
-//  } else {
-//    alert("¡Correo registrado con éxito!"); 
-//    return true;
-//  }
-//}
 const divvalidado = document.getElementById("validado");
 function validar() {
     const nombre = document.getElementById("nombre").value;
