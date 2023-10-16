@@ -1,4 +1,4 @@
- El sitio web tiene un diseño moderno y se enfoca en promover servicios relacionados con la inteligencia artificial y la realidad virtual.
+El sitio web tiene un diseño moderno y se enfoca en promover servicios relacionados con la inteligencia artificial y la realidad virtual.
 
 Estructura de Carpetas y Archivos
 index.html: El archivo principal del sitio web que contiene la estructura HTML de la página.
@@ -35,4 +35,3 @@ Recursos Adicionales
 Iconos Ionicons: Se utiliza la biblioteca de iconos Ionicons para agregar iconos a la página. Los enlaces a los archivos de Ionicons se proporcionan en el código HTML.
 
 
-http://codoacodog24.free.nf
