@@ -242,12 +242,14 @@ header .btn {
   width: 100%;
   padding-block: 20px;
   z-index: 4;
+
 }
 .header.active {
   background-color: var(--black-fond);
   position: fixed;
   animation: slideIn 0.5s ease forwards;
 }
+
 @keyframes slideIn {
   0% {
     transform: translateY(-100%);
@@ -256,6 +258,7 @@ header .btn {
     transform: translateY(0);
   }
 }
+
 .header .container {
   display: flex;
   justify-content: space-between;
@@ -263,13 +266,16 @@ header .btn {
   gap: 16px;
   width: 100%;
 }
+
 .nav-open-btn {
   font-size: var(--fs-5);
   color: var(--white);
 }
+
 .header.active .nav-open-btn {
   color: var(--white);
 }
+
 .navbar {
   position: fixed;
   top: 0;
@@ -288,15 +294,18 @@ header .btn {
   visibility: hidden;
   transition: var(--transition-3);
 }
+
 .navbar.active {
   visibility: visible;
   transform: translateX(300px);
 }
+
 .navbar-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .nav-close-btn {
   background-color: var(--white);
   color: var(--black-fond);
@@ -305,13 +314,16 @@ header .btn {
   transition: var(--transition-1);
   border-radius: var(--radius-circle);
 }
+
 .nav-list {
   margin-block-end: auto;
 }
+
 .navbar-link {
   font-weight: 500;
   padding-block: 15px;
 }
+
 .overlay {
   position: fixed;
   top: 0;
@@ -323,6 +335,7 @@ header .btn {
   opacity: 0;
   transition: var(--transition-1);
 }
+
 .overlay.active {
   pointer-events: all;
   opacity: 0.9;
@@ -343,13 +356,12 @@ header .btn {
 .banner-title {
   font-size: var(--fs-02);
   background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
-font-weight: 900;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 900;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
 }
 
 .banner-text {
@@ -399,9 +411,11 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
 .service {
   text-align: center;
 }
+
 .service .section-text {
   margin-block-end: 50px;
 }
+
 .service-card {
   padding: 38px;
   border-radius: var(--radius-6);
@@ -413,21 +427,25 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 34px;
 }
+
 .service-card:hover {  
   background-color: #2564eb21;
   color: white;
   transition: var(--transition-1);
   cursor: pointer;
 }
+
 .service-card .card-icon {
   margin-inline: auto;
   display: grid;
   place-items: center;
   justify-content: center;
 }
+
 .service-card .card-title {
   margin-block: 17px 11px;
 }
+
 .service-card .btn-text {
   display: flex;
   align-items: center;
@@ -437,9 +455,9 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
   font-weight: 500;
   transition: var(--transition-1);
 }
+
 .service-card .btn-text:is(:hover, :focus) {
   opacity: 0.9;
-
 }
 
 /* ABOUT */
@@ -459,6 +477,9 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
   margin-inline: auto;
 }
 
+.a-link:hover {
+  color: #2563eb; 
+}
 
 .feature .container {
   display: grid;
@@ -541,6 +562,16 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
   position: relative;
 }
 
+.texter {
+	height: 100%; /* Los textos deben ocupar la totalidad de la altura
+	de la "card" para que las siguientes instrucciones puedan tener efecto */
+	display: flex; /* Acomoda los textos en una misma línea */
+	flex-direction: column; /* Cambia la orientación de fila a columna
+	haciendo que los textos queden alineados uno debajo del otro */
+	justify-content: space-between; /* Separa los textos dejando todo el
+	espacio no ocupado en el medio */
+} 
+
 .newsletter-form .input-newsletter {
   background-color: var(--white);
   padding: 20px;
@@ -565,9 +596,11 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
   padding-block: 15px;
   gap: 10px;
   border-radius: var(--radius-pill);
-  position: absolute;
+  float: right;
+  margin-top: 20px;
+  /*position: absolute;
   top: 190px;
-  right: 5px;
+  right: 5px;*/
   transition: var(--transition-2);
 }
 
@@ -599,6 +632,33 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
   text-align: center;
   border-top: 1px solid rgba(220, 220, 220, 0.171);
   padding: 30px ;
+}
+
+/* TOOLTIP PARA ENLACES NO VINCULADOS*/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 180px;
+  color: black;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute; /* Position the tooltip */
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 /* MEDIA QUERY */

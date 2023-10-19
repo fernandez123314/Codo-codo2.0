@@ -33,25 +33,24 @@ window.addEventListener("scroll", function () {
  }
 });
 
-
-
 //validar Formulario
 
 const divvalidado = document.getElementById("validado");
+
 function validar() {
-    const nombre = document.getElementById("nombre").value;
-    const email = document.getElementById("email").value;  
-    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-  
-    if (nombre === ""){
-      divvalidado.innerHTML = '<p class="error">Tu nombre debe ser completado</p>';
-    } else if (email === "") {
-      divvalidado.innerHTML = '<p class="error">Tu correo debe ser informado</p>';
-    } else if (!emailPattern.test(email)) {
-      divvalidado.innerHTML = '<p class="error">Esa dirección no es válida</p>';
-    } else {
-      divvalidado.innerHTML = '<p>¡Datos registrados con éxito!</p>';
-      document.getElementById("nombre").value = "";
-      document.getElementById("email").value = "";
-    }
+  const nombre = document.getElementById("nombre").value;
+  const email = document.getElementById("email").value;  
+  const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+  if (nombre === ""){
+    divvalidado.innerHTML = '<p class="error">Tu nombre debe ser completado</p>';
+  } else if (email === "") {
+    divvalidado.innerHTML = '<p class="error">Tu correo debe ser informado</p>';
+  } else if (!emailPattern.test(email)) {
+    divvalidado.innerHTML = '<p class="error">La dirección de correo no es válida</p>';
+  } else {
+    divvalidado.innerHTML = '<p>¡Datos registrados con éxito!</p>';
+    document.getElementById("nombre").value = "";
+    document.getElementById("email").value = "";
+  }
 }
