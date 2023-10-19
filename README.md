@@ -1,19 +1,19 @@
- El sitio web tiene un diseño moderno y se enfoca en promover servicios relacionados con la inteligencia artificial y la realidad virtual.
+El sitio web tiene un diseño moderno y se enfoca en promover servicios relacionados con la inteligencia artificial y la realidad virtual.
 
-Estructura de Carpetas y Archivos
+    Estructura de Carpetas y Archivos
 index.html: El archivo principal del sitio web que contiene la estructura HTML de la página.
+    
+    assets/: Carpeta que contiene los activos del sitio web, como imágenes, estilos CSS.
+    
+    assets/img/: Contiene todas las imágenes utilizadas en el sitio web, incluyendo el logotipo, las imágenes de servicios y del equipo.
+    
+    assets/css/: Carpeta que contiene los archivos de estilos CSS utilizados para dar formato al sitio web.
 
-assets/: Carpeta que contiene los activos del sitio web, como imágenes, estilos CSS.
 
-assets/img/: Contiene todas las imágenes utilizadas en el sitio web, incluyendo el logotipo, las imágenes de servicios y del equipo.
+    js/: Carpeta que contiene los scripts JavaScript utilizados para funcionalidades del sitio web.
 
-assets/css/: Carpeta que contiene los archivos de estilos CSS utilizados para dar formato al sitio web.
-
-
-js/: Carpeta que contiene los scripts JavaScript utilizados para funcionalidades del sitio web.
-
-Estructura del Sitio Web
-El sitio web está estructurado en varias secciones:
+    Estructura del Sitio Web
+    El sitio web está estructurado en varias secciones:
 
 Header: La sección de encabezado incluye el logotipo, la barra de navegación y un botón de menú para dispositivos móviles.
 
@@ -31,8 +31,7 @@ Suscríbete: Una sección que invita a los visitantes a suscribirse para recibir
 
 Footer: El pie de página incluye enlaces de servicio, información de la compañía y enlaces de soporte.
 
-Recursos Adicionales
-Iconos Ionicons: Se utiliza la biblioteca de iconos Ionicons para agregar iconos a la página. Los enlaces a los archivos de Ionicons se proporcionan en el código HTML.
+    Recursos Adicionales
+    Iconos Ionicons: Se utiliza la biblioteca de iconos Ionicons para agregar iconos a la página. Los enlaces a los archivos de Ionicons se proporcionan en el código HTML.
 
 
-http://codoacodog24.free.nf
