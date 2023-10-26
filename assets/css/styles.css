@@ -84,17 +84,16 @@ a {
 img {
   height: auto;
 }
-
-input,
+input, 
 button {
   background: none;
   border: none;
   font: inherit;
 }
 
-input {
+/*input {
   width: 100%;
-}
+}*/
 button {
   cursor: pointer;
 }
@@ -119,6 +118,14 @@ body {
   background-color: var(--black-fond);
   color: var(--white);
   font-size: var(--fs-8);
+}
+
+.logo{
+  max-width: 200px;
+}
+
+.footer-link{
+  font-size: small;
 }
 
 ::-webkit-scrollbar {
@@ -346,7 +353,6 @@ header .btn {
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-text-fill-color: transparent;
 font-weight: 900;
 
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
@@ -527,14 +533,40 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
 }
 
 /* suscribete */
+textarea{
+  resize: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 8px;
+  width: 90%;
+  border-color: rgb(51, 48, 48);
+  background-color: #111828;
+  color: azure;
+  text-align: center;
+}
+
+input{
+  margin: 5px;
+  border-bottom: #ffffff;
+  padding: 8px;
+  color: azure;
+  width: 90%;
+}
+
+.checkbox{
+  width: 10%;
+  display: inline;
+}
+
 .newsletter .container {
   display: grid;
   gap: 40px;
   text-align: center;
   background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
-box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
-border-radius: 34px;
-padding: 35px 30px;
+  box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+  border-radius: 34px;
+  padding: 35px 30px;
 }
 
 .newsletter-form {
@@ -544,22 +576,18 @@ padding: 35px 30px;
 .newsletter-form .input-newsletter {
   background-color: var(--white);
   padding: 20px;
-  /* padding-inline-start: 40px; */
-  border-radius: var(--radius-pill);
+  /* padding-inline-start: 40px;
   outline: none;
-  /* margin-block-end: 30px; */
+  margin-block-end: 30px; */
 }
 
 .newsletter-form .btn {
   display: flex;
-  align-items: center;
-  padding-block: 15px;
+  padding-block: 8px;
   gap: 10px;
   border-radius: var(--radius-pill);
-  position: absolute;
-  top: 5px;
-  right: 5px;
   transition: var(--transition-2);
+  margin-top: 8px;
 }
 
 .newsletter-form .btn ion-icon {
@@ -585,7 +613,7 @@ padding: 35px 30px;
   transform: translateY(-4px);
 }
 
-/* copuright */
+/* copyright */
 .footer-copyright {
   text-align: center;
   border-top: 1px solid rgba(220, 220, 220, 0.171);
